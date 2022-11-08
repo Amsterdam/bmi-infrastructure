@@ -3,52 +3,21 @@ version: '3.5'
 services:
   keycloak:
     container_name: bmi_keycloak
-    image: alemairebe/keycloak:14.0.0
-    depends_on:
-      - database
+    build:
+      context: services/keycloak
+    image: bmi/keycloak
+    command: ["/opt/keycloak/bin/kc.sh", "start-dev", "--http-port", "8085"]
     volumes:
-      - ./services/keycloak:/opt/jboss/keycloak/imports
-    command:
-      - '-b 0.0.0.0'
-      - '-Djboss.socket.binding.port-offset=5'
+      - ./services/keycloak/import:/import
     ports:
-      - 8085:8085
+      - "8085:8085"
     environment:
-      DB_VENDOR: postgres
-      DB_DATABASE: ${DB_NAME}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASS}
-      DB_ADDR: postgres.bmi.localhost
-      KEYCLOAK_USER: administrator
-      KEYCLOAK_PASSWORD: keycloakadmin01!
-      KEYCLOAK_IMPORT: /opt/jboss/keycloak/imports/realm-export.json
+      KEYCLOAK_ADMIN: administrator
+      KEYCLOAK_ADMIN_PASSWORD: keycloakadmin01!
     networks:
       bmi:
         aliases:
           - keycloak.bmi.localhost
-    env_file:
-      - .env
-  database:
-    container_name: bmi_database
-    image: postgres:14.2-alpine
-    volumes:
-      - postgres-bmi:/var/lib/postgresql/data
-      - ./docker/database:/docker-entrypoint-initdb.d
-      - ./docker/keycloak:/docker-entrypoint-initdb.d
-    environment:
-      POSTGRES_PASSWORD: ${DB_PASS}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_DB: ${DB_NAME}
-      PG_DATA: /var/lib/postgresql/data
-    networks:
-      bmi:
-        aliases:
-          - postgres.bmi.localhost
-    env_file:
-      - .env
-volumes:
-  postgres-bmi:
-    name: postgres-bmi
 
 networks:
   bmi:
