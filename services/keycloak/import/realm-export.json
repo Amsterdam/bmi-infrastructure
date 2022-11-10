@@ -1,5 +1,5 @@
 {
-  "id" : "bmidms",
+  "id" : "bmi",
   "realm" : "bmi",
   "notBefore" : 0,
   "defaultSignatureAlgorithm" : "RS256",
