@@ -14,7 +14,6 @@ services:
     environment:
       KEYCLOAK_ADMIN: administrator
       KEYCLOAK_ADMIN_PASSWORD: keycloakadmin01!
-      KC_HTTP_RELATIVE_PATH: "/auth"
     networks:
       bmi:
         aliases:

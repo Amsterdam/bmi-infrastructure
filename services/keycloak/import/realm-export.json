@@ -1123,13 +1123,13 @@
       "clientId": "account-console",
       "name": "${client_account-console}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/bmidms/account/",
+      "baseUrl": "/realms/bmi/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "redirectUris": [
-        "/realms/bmidms/account/*"
+        "/realms/bmi/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
