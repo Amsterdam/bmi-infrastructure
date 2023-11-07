@@ -745,7 +745,7 @@
     } ],
     "disableableCredentialTypes" : [ ],
     "requiredActions" : [ ],
-    "realmRoles" : [ "bmiaip_editor", "default-roles-aip-dev" ],
+    "realmRoles" : [ "default-roles-aip-dev" ],
     "notBefore" : 0,
     "groups" : [ "/bmiaip_owner" ]
   }, {
