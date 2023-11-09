@@ -745,9 +745,9 @@
     } ],
     "disableableCredentialTypes" : [ ],
     "requiredActions" : [ ],
-    "realmRoles" : [ "default-roles-aip-dev" ],
+    "realmRoles" : [ "default-roles-aip-dev", "aip_editor" ],
     "notBefore" : 0,
-    "groups" : [ "/bmiaip_owner_editor" ]
+    "groups" : [ "/bmiaip_owner" ]
   }, {
     "id" : "f5a2f506-7fe1-4efe-b070-77b4a5bce3b9",
     "createdTimestamp" : 1649778731251,
