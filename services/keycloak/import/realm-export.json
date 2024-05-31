@@ -1348,7 +1348,7 @@
           "http://localhost:8080/*",
           "http://aip-build:8080/*",
           "http://server.aip.localhost/*",
-          "http://backend-express.aip.localhost:8080/*",
+          "http://backend-express.aip.localhost:8080/*"
         ],
         "webOrigins": [
           "http://server.aip.localhost/",
