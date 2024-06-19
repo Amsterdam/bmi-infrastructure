@@ -760,9 +760,9 @@
     "otpPolicyPeriod": 30,
     "otpPolicyCodeReusable": false,
     "otpSupportedApplications": [
+      "totpAppFreeOTPName",
       "totpAppMicrosoftAuthenticatorName",
-      "totpAppGoogleName",
-      "totpAppFreeOTPName"
+      "totpAppGoogleName"
     ],
     "webAuthnPolicyRpEntityName": "keycloak",
     "webAuthnPolicySignatureAlgorithms": ["ES256"],
@@ -887,16 +887,16 @@
         "requiredActions": [],
         "realmRoles": ["default-roles-bmidms"],
         "notBefore": 0,
-        "groups": ["/bmiaip_owner_editor"]
+        "groups": ["/bmiaip_contract", "/bmiaip_owner_editor"]
       },
       {
         "id": "7cbb1810-9bac-7901-8bd8-3fffc08e7ca9",
         "createdTimestamp": 1649859652307,
-        "username": "aip.test.surveyor",
+        "username": "aip.test.surveyor.nebest",
         "enabled": true,
         "totp": false,
         "emailVerified": true,
-        "firstName": "Surveyor",
+        "firstName": "Surveyor (Nebest)",
         "lastName": "(Test User)",
         "email": "aip.test.surveyor@nebest.nl",
         "credentials": [
@@ -912,6 +912,58 @@
         "disableableCredentialTypes": [],
         "requiredActions": [],
         "realmRoles": ["default-roles-aip-dev"],
+        "notBefore": 0,
+        "groups": ["/bmiaip_surveyor"]
+      },
+      {
+        "id": "c5094700-5be3-4a2e-8549-35715210d5e1",
+        "createdTimestamp": 1718697608377,
+        "username": "aip.test.surveyor.aquanoom",
+        "enabled": true,
+        "totp": false,
+        "emailVerified": true,
+        "firstName": "Surveyor (Aquanoom)",
+        "lastName": "(Test User)",
+        "email": "aip.test.surveyor@aquanoom.nl",
+        "credentials": [
+          {
+            "id": "168f0e83-3466-48c3-a08c-c11765d91a4d",
+            "type": "password",
+            "userLabel": "My password",
+            "createdDate": 1718698020345,
+            "secretData": "{\"value\":\"WAc02cF0RrqdEPaMthZZ0nc/ykziVbcOY2Vos5DJTuk=\",\"salt\":\"wEup7zZ6iqDLMryHTOLSIA==\",\"additionalParameters\":{}}",
+            "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+          }
+        ],
+        "disableableCredentialTypes": [],
+        "requiredActions": [],
+        "realmRoles": ["default-roles-bmidms"],
+        "notBefore": 0,
+        "groups": ["/bmiaip_surveyor"]
+      },
+      {
+        "id": "338a245f-712e-4403-ae64-667fc6d4ccf4",
+        "createdTimestamp": 1718697377539,
+        "username": "aip.test.surveyor.wagemaker",
+        "enabled": true,
+        "totp": false,
+        "emailVerified": true,
+        "firstName": "Surveyor (Wagemaker)",
+        "lastName": "(Test User)",
+        "email": "aip.test.surveyor@wagemaker.nl",
+        "credentials": [
+          {
+            "id": "e589b4ab-c9ac-4dc2-b714-ed007836bf58",
+            "type": "password",
+            "userLabel": "My password",
+            "createdDate": 1718698055421,
+            "secretData": "{\"value\":\"Egnh/GYLL6hNDW2yx6m9uBURYgINStFkOxDVTAipZIQ=\",\"salt\":\"/avzfg/kgl5IkIFRPgxgJg==\",\"additionalParameters\":{}}",
+            "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+          }
+        ],
+        "disableableCredentialTypes": [],
+        "requiredActions": [],
+        "realmRoles": ["default-roles-bmidms"],
         "notBefore": 0,
         "groups": ["/bmiaip_surveyor"]
       },
@@ -1347,8 +1399,7 @@
         "redirectUris": [
           "http://localhost:8080/*",
           "http://aip-build:8080/*",
-          "http://server.aip.localhost/*",
-          "http://backend-express.aip.localhost:8080/*"
+          "http://server.aip.localhost/*"
         ],
         "webOrigins": [
           "http://server.aip.localhost/",
@@ -2210,12 +2261,12 @@
             "allowed-protocol-mapper-types": [
               "oidc-usermodel-property-mapper",
               "oidc-usermodel-attribute-mapper",
-              "saml-user-attribute-mapper",
-              "oidc-sha256-pairwise-sub-mapper",
-              "saml-role-list-mapper",
-              "oidc-address-mapper",
               "saml-user-property-mapper",
-              "oidc-full-name-mapper"
+              "oidc-full-name-mapper",
+              "saml-role-list-mapper",
+              "oidc-sha256-pairwise-sub-mapper",
+              "oidc-address-mapper",
+              "saml-user-attribute-mapper"
             ]
           }
         },
@@ -2237,14 +2288,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "saml-role-list-mapper",
               "oidc-full-name-mapper",
-              "oidc-address-mapper",
-              "saml-user-attribute-mapper",
-              "saml-user-property-mapper",
               "oidc-usermodel-property-mapper",
+              "saml-user-property-mapper",
+              "oidc-usermodel-attribute-mapper",
               "oidc-sha256-pairwise-sub-mapper",
-              "oidc-usermodel-attribute-mapper"
+              "saml-user-attribute-mapper",
+              "saml-role-list-mapper",
+              "oidc-address-mapper"
             ]
           }
         },
@@ -3662,9 +3713,9 @@
     "otpPolicyPeriod": 30,
     "otpPolicyCodeReusable": false,
     "otpSupportedApplications": [
+      "totpAppFreeOTPName",
       "totpAppMicrosoftAuthenticatorName",
-      "totpAppGoogleName",
-      "totpAppFreeOTPName"
+      "totpAppGoogleName"
     ],
     "webAuthnPolicyRpEntityName": "keycloak",
     "webAuthnPolicySignatureAlgorithms": ["ES256"],
@@ -4553,14 +4604,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
+              "oidc-full-name-mapper",
               "saml-user-property-mapper",
-              "saml-role-list-mapper",
-              "oidc-usermodel-property-mapper",
-              "oidc-usermodel-attribute-mapper",
-              "saml-user-attribute-mapper",
               "oidc-address-mapper",
               "oidc-sha256-pairwise-sub-mapper",
-              "oidc-full-name-mapper"
+              "saml-role-list-mapper",
+              "oidc-usermodel-attribute-mapper",
+              "oidc-usermodel-property-mapper",
+              "saml-user-attribute-mapper"
             ]
           }
         },
@@ -4593,14 +4644,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "oidc-usermodel-attribute-mapper",
+              "saml-role-list-mapper",
               "saml-user-attribute-mapper",
               "oidc-usermodel-property-mapper",
-              "saml-role-list-mapper",
               "oidc-address-mapper",
+              "saml-user-property-mapper",
               "oidc-sha256-pairwise-sub-mapper",
               "oidc-full-name-mapper",
-              "saml-user-property-mapper"
+              "oidc-usermodel-attribute-mapper"
             ]
           }
         },
