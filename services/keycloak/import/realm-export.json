@@ -829,8 +829,8 @@
     "otpPolicyPeriod": 30,
     "otpPolicyCodeReusable": false,
     "otpSupportedApplications": [
-      "totpAppFreeOTPName",
       "totpAppMicrosoftAuthenticatorName",
+      "totpAppFreeOTPName",
       "totpAppGoogleName"
     ],
     "webAuthnPolicyRpEntityName": "keycloak",
@@ -873,8 +873,8 @@
             "id": "e7369ce9-7e77-470e-bf52-a74bdd15cf8a",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1711008697399,
-            "secretData": "{\"value\":\"+eF3DihYfIUNEVfllEcw0ajpy6fUYAzcsMU0YMzscUU=\",\"salt\":\"JXjHDtktWhG0YKuqLr93qg==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780242403,
+            "secretData": "{\"value\":\"4cUybk5wU95XVlftdmbq0+l43TgxbzZdZd1x4MVegqw=\",\"salt\":\"6pJmxIgTr1eUvo9YuA6SEw==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -903,8 +903,8 @@
             "id": "ffdbe343-900a-4ad9-b2e8-47c26fd1f577",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1711008804213,
-            "secretData": "{\"value\":\"VJ8NdlEWOl8dLKk/x46St9aCDB6G1z6gagNmVFE59Ps=\",\"salt\":\"dc5IuypRzGtarehSD3xjag==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780399998,
+            "secretData": "{\"value\":\"6/7FqdoS0jO0I2JOELCSxfIZ9lOU/YGUXiUYQJ5ktzw=\",\"salt\":\"PJKnk/K7zO/KSvtkXtBl5g==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -933,8 +933,8 @@
             "id": "7dd25f8f-9248-4a55-a589-c56496f92e92",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1724934516709,
-            "secretData": "{\"value\":\"858OsKCIOqPi6EP53GxAzVN0J86loREcoy69cJR4LfY=\",\"salt\":\"V0IVr2wkUS9O4XVCQkESNQ==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780294187,
+            "secretData": "{\"value\":\"ACnALn1Cw+XyKdkZ9EoJK+lLQxMFAklCJSHs6KnmrgM=\",\"salt\":\"97PgGVzFBSwva27NBi+Viw==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -963,8 +963,8 @@
             "id": "ec5c244a-b525-4823-927c-1b65a00dc482",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1724934549612,
-            "secretData": "{\"value\":\"SlLH8bxWm7wQCOiCWBndJQKBRjS0D9UXUD1RhqyBSwU=\",\"salt\":\"nq//vjNqBt4qkxjiQaNV0w==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780327787,
+            "secretData": "{\"value\":\"yzmEedlV7TEx1cZ+bzHznSSBrayieGYQi2lldrGesfc=\",\"salt\":\"1JYS8LnDfz/5zxi5eZA4og==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -993,8 +993,8 @@
             "id": "01ed2f12-6869-46fa-8171-18b3a8768913",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1724934577895,
-            "secretData": "{\"value\":\"5hPjElCjx5AE1/+6r/RRBspmBTBcFquy5cSgUm0kyVY=\",\"salt\":\"WVlg2H/vMgamIPJQvMPM5g==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780352419,
+            "secretData": "{\"value\":\"Q/H6ZvUawBbkVdvNVLGuemTbtpvCEq/GaL37MkQ17t4=\",\"salt\":\"lgcR3Bpx3N62wet/+KmaxA==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -1023,8 +1023,8 @@
             "id": "592942e4-cb70-4d37-a29e-9d92515418dd",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1711008822987,
-            "secretData": "{\"value\":\"XBuSnak0kS/Gltg+eTX1UejVInQXqLT5nEXdfof9tQ0=\",\"salt\":\"NhqRjAMLFNMQkJ+ddJB4ug==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780379448,
+            "secretData": "{\"value\":\"HP78pGZXtxWH/IEu6L5WWnR7alCkx6/yQVs2avBf6Ys=\",\"salt\":\"IqlZWD/sdq0kCJxwC8601Q==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -1053,8 +1053,8 @@
             "id": "168f0e83-3466-48c3-a08c-c11765d91a4d",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1718698020345,
-            "secretData": "{\"value\":\"WAc02cF0RrqdEPaMthZZ0nc/ykziVbcOY2Vos5DJTuk=\",\"salt\":\"wEup7zZ6iqDLMryHTOLSIA==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780487997,
+            "secretData": "{\"value\":\"uI/eZNrCdowzFFECz4b3oe+n11qikHc4GXEv5zVUOEg=\",\"salt\":\"vCx7N5LU38d3S7fTcYz3Ow==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -1083,8 +1083,8 @@
             "id": "9f0d6717-263e-4224-8799-810283703387",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1711008841594,
-            "secretData": "{\"value\":\"IqfNf8ta2DJ1Y5q/32yG2hfV1PPIXP5Db17R/IjrHVE=\",\"salt\":\"FLyLCEGiUCZpa1K0ymLePw==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780431196,
+            "secretData": "{\"value\":\"bVoniVJcL/VnT5mGYE4jZDwWdIRMKOZuriQtV+ZA7Cs=\",\"salt\":\"INz6Vd1oh+UDc6n0rIYTEw==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -1113,8 +1113,8 @@
             "id": "e589b4ab-c9ac-4dc2-b714-ed007836bf58",
             "type": "password",
             "userLabel": "My password",
-            "createdDate": 1718698055421,
-            "secretData": "{\"value\":\"Egnh/GYLL6hNDW2yx6m9uBURYgINStFkOxDVTAipZIQ=\",\"salt\":\"/avzfg/kgl5IkIFRPgxgJg==\",\"additionalParameters\":{}}",
+            "createdDate": 1727780463017,
+            "secretData": "{\"value\":\"cAfTnxqjtDi2Gav5Vb4Obd7Ixv2N9G0voxFZUAiP4Xw=\",\"salt\":\"DKQOHJdypDK8Gge/9kmj3A==\",\"additionalParameters\":{}}",
             "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
           }
         ],
@@ -2520,14 +2520,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "saml-user-attribute-mapper",
-              "oidc-full-name-mapper",
-              "saml-role-list-mapper",
+              "oidc-usermodel-attribute-mapper",
               "oidc-usermodel-property-mapper",
-              "oidc-address-mapper",
-              "oidc-sha256-pairwise-sub-mapper",
+              "saml-user-attribute-mapper",
               "saml-user-property-mapper",
-              "oidc-usermodel-attribute-mapper"
+              "saml-role-list-mapper",
+              "oidc-address-mapper",
+              "oidc-full-name-mapper",
+              "oidc-sha256-pairwise-sub-mapper"
             ]
           }
         },
@@ -2551,14 +2551,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "saml-user-property-mapper",
-              "oidc-usermodel-property-mapper",
-              "saml-user-attribute-mapper",
-              "oidc-address-mapper",
-              "oidc-usermodel-attribute-mapper",
-              "oidc-sha256-pairwise-sub-mapper",
               "oidc-full-name-mapper",
-              "saml-role-list-mapper"
+              "oidc-usermodel-property-mapper",
+              "saml-user-property-mapper",
+              "oidc-sha256-pairwise-sub-mapper",
+              "saml-role-list-mapper",
+              "oidc-address-mapper",
+              "saml-user-attribute-mapper",
+              "oidc-usermodel-attribute-mapper"
             ]
           }
         },
@@ -4026,8 +4026,8 @@
     "otpPolicyPeriod": 30,
     "otpPolicyCodeReusable": false,
     "otpSupportedApplications": [
-      "totpAppFreeOTPName",
       "totpAppMicrosoftAuthenticatorName",
+      "totpAppFreeOTPName",
       "totpAppGoogleName"
     ],
     "webAuthnPolicyRpEntityName": "keycloak",
@@ -4969,14 +4969,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "oidc-sha256-pairwise-sub-mapper",
               "oidc-usermodel-attribute-mapper",
-              "saml-role-list-mapper",
               "oidc-usermodel-property-mapper",
+              "oidc-sha256-pairwise-sub-mapper",
+              "saml-role-list-mapper",
               "oidc-full-name-mapper",
+              "saml-user-property-mapper",
               "oidc-address-mapper",
-              "saml-user-attribute-mapper",
-              "saml-user-property-mapper"
+              "saml-user-attribute-mapper"
             ]
           }
         },
@@ -5015,14 +5015,14 @@
           "subComponents": {},
           "config": {
             "allowed-protocol-mapper-types": [
-              "saml-user-property-mapper",
-              "oidc-sha256-pairwise-sub-mapper",
-              "saml-user-attribute-mapper",
-              "oidc-address-mapper",
-              "oidc-usermodel-attribute-mapper",
               "saml-role-list-mapper",
+              "oidc-usermodel-attribute-mapper",
+              "oidc-full-name-mapper",
+              "saml-user-attribute-mapper",
+              "saml-user-property-mapper",
               "oidc-usermodel-property-mapper",
-              "oidc-full-name-mapper"
+              "oidc-address-mapper",
+              "oidc-sha256-pairwise-sub-mapper"
             ]
           }
         },
