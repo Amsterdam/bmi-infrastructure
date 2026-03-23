@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:21.1
+FROM quay.io/keycloak/keycloak:23.0.7
 
 COPY ./entrypoint.sh /entrypoint.sh
 
